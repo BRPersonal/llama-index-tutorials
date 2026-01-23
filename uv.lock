@@ -1989,77 +1989,6 @@ wheels = [
 ]
 
 [[package]]
-name = "krishnaik-llama-index-tutorials"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "beautifulsoup4" },
-    { name = "chromadb" },
-    { name = "ipywidgets" },
-    { name = "jupyter" },
-    { name = "llama-index" },
-    { name = "llama-index-core" },
-    { name = "llama-index-embeddings-bedrock" },
-    { name = "llama-index-embeddings-huggingface" },
-    { name = "llama-index-embeddings-openai" },
-    { name = "llama-index-llms-anthropic" },
-    { name = "llama-index-llms-bedrock-converse" },
-    { name = "llama-index-llms-openai" },
-    { name = "llama-index-postprocessor-cohere-rerank" },
-    { name = "llama-index-readers-file" },
-    { name = "llama-index-vector-stores-chroma" },
-    { name = "llama-index-vector-stores-qdrant" },
-    { name = "lxml" },
-    { name = "matplotlib" },
-    { name = "notebook" },
-    { name = "numpy" },
-    { name = "pandas" },
-    { name = "pypdf" },
-    { name = "python-docx" },
-    { name = "python-dotenv" },
-    { name = "qdrant-client" },
-    { name = "requests" },
-    { name = "sentence-transformers" },
-    { name = "torch" },
-    { name = "tqdm" },
-    { name = "transformers" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "beautifulsoup4", specifier = ">=4.14.3" },
-    { name = "chromadb", specifier = ">=1.4.1" },
-    { name = "ipywidgets", specifier = ">=8.1.8" },
-    { name = "jupyter", specifier = ">=1.1.1" },
-    { name = "llama-index", specifier = ">=0.14.13" },
-    { name = "llama-index-core", specifier = ">=0.14.13" },
-    { name = "llama-index-embeddings-bedrock", specifier = ">=0.7.3" },
-    { name = "llama-index-embeddings-huggingface", specifier = ">=0.6.1" },
-    { name = "llama-index-embeddings-openai", specifier = ">=0.5.1" },
-    { name = "llama-index-llms-anthropic", specifier = ">=0.10.6" },
-    { name = "llama-index-llms-bedrock-converse", specifier = ">=0.12.4" },
-    { name = "llama-index-llms-openai", specifier = ">=0.6.13" },
-    { name = "llama-index-postprocessor-cohere-rerank", specifier = ">=0.5.1" },
-    { name = "llama-index-readers-file", specifier = ">=0.5.6" },
-    { name = "llama-index-vector-stores-chroma", specifier = ">=0.5.5" },
-    { name = "llama-index-vector-stores-qdrant", specifier = ">=0.9.1" },
-    { name = "lxml", specifier = ">=6.0.2" },
-    { name = "matplotlib", specifier = ">=3.10.8" },
-    { name = "notebook", specifier = ">=7.5.2" },
-    { name = "numpy", specifier = ">=2.4.1" },
-    { name = "pandas", specifier = ">=2.3.3" },
-    { name = "pypdf", specifier = ">=6.6.0" },
-    { name = "python-docx", specifier = ">=1.2.0" },
-    { name = "python-dotenv", specifier = ">=1.2.1" },
-    { name = "qdrant-client", specifier = ">=1.16.2" },
-    { name = "requests", specifier = ">=2.32.5" },
-    { name = "sentence-transformers", specifier = ">=5.2.0" },
-    { name = "torch", specifier = ">=2.10.0" },
-    { name = "tqdm", specifier = ">=4.67.1" },
-    { name = "transformers", specifier = ">=4.57.6" },
-]
-
-[[package]]
 name = "kubernetes"
 version = "35.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2340,6 +2269,77 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/b3/77/5bfaab20e6ec8428dbf2352e18be550c957602723d69383908176b5686cd/llama_index_readers_llama_parse-0.5.1.tar.gz", hash = "sha256:2b78b73faa933e30e6c69df351e4e9f36dfe2ae142e2ab3969ddd2ac48930e37", size = 3858, upload-time = "2025-09-08T20:41:29.201Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/68/81/52410c7245dcbf1a54756a9ce3892cdd167ec0b884d696de1304ca3f452e/llama_index_readers_llama_parse-0.5.1-py3-none-any.whl", hash = "sha256:0d41450ed29b0c49c024e206ef6c8e662b1854e77a1c5faefed3b958be54f880", size = 3203, upload-time = "2025-09-08T20:41:28.438Z" },
+]
+
+[[package]]
+name = "llama-index-tutorials"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "beautifulsoup4" },
+    { name = "chromadb" },
+    { name = "ipywidgets" },
+    { name = "jupyter" },
+    { name = "llama-index" },
+    { name = "llama-index-core" },
+    { name = "llama-index-embeddings-bedrock" },
+    { name = "llama-index-embeddings-huggingface" },
+    { name = "llama-index-embeddings-openai" },
+    { name = "llama-index-llms-anthropic" },
+    { name = "llama-index-llms-bedrock-converse" },
+    { name = "llama-index-llms-openai" },
+    { name = "llama-index-postprocessor-cohere-rerank" },
+    { name = "llama-index-readers-file" },
+    { name = "llama-index-vector-stores-chroma" },
+    { name = "llama-index-vector-stores-qdrant" },
+    { name = "lxml" },
+    { name = "matplotlib" },
+    { name = "notebook" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "pypdf" },
+    { name = "python-docx" },
+    { name = "python-dotenv" },
+    { name = "qdrant-client" },
+    { name = "requests" },
+    { name = "sentence-transformers" },
+    { name = "torch" },
+    { name = "tqdm" },
+    { name = "transformers" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "beautifulsoup4", specifier = ">=4.14.3" },
+    { name = "chromadb", specifier = ">=1.4.0" },
+    { name = "ipywidgets", specifier = ">=8.1.8" },
+    { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "llama-index", specifier = ">=0.14.12" },
+    { name = "llama-index-core", specifier = ">=0.14.12" },
+    { name = "llama-index-embeddings-bedrock", specifier = ">=0.7.2" },
+    { name = "llama-index-embeddings-huggingface", specifier = ">=0.6.1" },
+    { name = "llama-index-embeddings-openai", specifier = ">=0.5.1" },
+    { name = "llama-index-llms-anthropic", specifier = ">=0.10.5" },
+    { name = "llama-index-llms-bedrock-converse", specifier = ">=0.12.3" },
+    { name = "llama-index-llms-openai", specifier = ">=0.6.12" },
+    { name = "llama-index-postprocessor-cohere-rerank", specifier = ">=0.5.1" },
+    { name = "llama-index-readers-file", specifier = ">=0.5.6" },
+    { name = "llama-index-vector-stores-chroma", specifier = ">=0.5.5" },
+    { name = "llama-index-vector-stores-qdrant", specifier = ">=0.9.0" },
+    { name = "lxml", specifier = ">=6.0.2" },
+    { name = "matplotlib", specifier = ">=3.10.8" },
+    { name = "notebook", specifier = ">=7.5.1" },
+    { name = "numpy", specifier = ">=2.4.0" },
+    { name = "pandas", specifier = ">=2.3.3" },
+    { name = "pypdf", specifier = ">=6.5.0" },
+    { name = "python-docx", specifier = ">=1.2.0" },
+    { name = "python-dotenv", specifier = ">=1.2.1" },
+    { name = "qdrant-client", specifier = ">=1.16.2" },
+    { name = "requests", specifier = ">=2.32.5" },
+    { name = "sentence-transformers", specifier = ">=5.2.0" },
+    { name = "torch", specifier = ">=2.9.1" },
+    { name = "tqdm", specifier = ">=4.67.1" },
+    { name = "transformers", specifier = ">=4.57.3" },
 ]
 
 [[package]]
